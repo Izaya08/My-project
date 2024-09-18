@@ -15,7 +15,7 @@ public class PlayerTwo : MonoBehaviour
 	int MagicResistance = 5;
 	float Speed = 1.5f;
 
-    public void button1press()
+    public void button2press()
 	{
         Hi.text = "Name: " + Name + " \nAge: " + Age + "\nRace: " + Race + " \nPhysicalDamage: " + PhysicalDamage + " \nArmor: " + Armor + " \nMagicDamage: " + MagicDamage + " \nMagicResisrance: " + MagicResistance + " \nSpeed: " + Speed;
     }
